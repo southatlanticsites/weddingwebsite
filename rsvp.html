@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RSVP — Mike &amp; Julia</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;1,300;1,400&family=Karla:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="index.html">M &amp; J</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="accommodations.html">Accommodations</a></li>
+        <li><a href="things-to-do.html">Things to Do</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+        <li><a href="attire.html">Attire</a></li>
+        <li><a href="rsvp.html" class="nav-rsvp active">RSVP</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section section-narrow">
+      <div class="section-head">
+        <svg class="sprig" viewBox="0 0 120 34" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+          <path d="M8 26 Q 60 10 112 26" />
+          <path d="M34 21 q -4 -10 4 -16 q 5 9 -4 16z" />
+          <path d="M60 17 q -1 -11 8 -14 q 2 10 -8 14z" />
+          <path d="M86 21 q 4 -10 -4 -16 q -5 9 4 16z" />
+        </svg>
+        <h2>RSVP</h2>
+        <div class="sub">Kindly reply by August 1, 2027</div>
+        <p class="lede">We can't wait to celebrate with you. Please fill out one response per guest or household.</p>
+      </div>
+
+      <!-- ============================================================
+           SETUP REQUIRED: create a free form at https://formspree.io,
+           then replace YOUR_FORM_ID below with the ID Formspree gives
+           you (it looks like: https://formspree.io/f/abcd1234).
+           Responses will arrive in your email inbox.
+           ============================================================ -->
+      <form class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+        <div class="form-row">
+          <label for="name">Full name(s)</label>
+          <input type="text" id="name" name="name" required placeholder="e.g. Jordan Smith and guest" />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com" />
+        </div>
+
+        <div class="form-row">
+          <label>Will you be attending?</label>
+          <div class="radio-group">
+            <label><input type="radio" name="attending" value="Joyfully accepts" required /> Joyfully accepts</label>
+            <label><input type="radio" name="attending" value="Regretfully declines" /> Regretfully declines</label>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="guests">Number of guests in your party</label>
+          <input type="number" id="guests" name="guests" min="1" max="10" value="1" />
+        </div>
+
+        <div class="form-row check-group">
+          <label style="display:block; cursor:default;">Which events will you join us for?</label>
+          <label><input type="checkbox" name="events" value="Welcome Party (Fri)" /> Welcome Party — Friday, Transfer Co. Food Hall</label>
+          <label><input type="checkbox" name="events" value="Wedding (Sat)" /> Wedding — Saturday, JC Raulston Arboretum</label>
+          <label><input type="checkbox" name="events" value="After Party (Sat)" /> After Party — Saturday, Watts &amp; Ward</label>
+        </div>
+
+        <div class="form-row">
+          <label for="dietary">Dietary restrictions or allergies</label>
+          <input type="text" id="dietary" name="dietary" placeholder="None / vegetarian / gluten-free / etc." />
+        </div>
+
+        <div class="form-row">
+          <label for="song">Song that will get you on the dance floor</label>
+          <input type="text" id="song" name="song" placeholder="Optional, but encouraged" />
+        </div>
+
+        <div class="form-row">
+          <label for="note">Anything else we should know?</label>
+          <textarea id="note" name="note" rows="3"></textarea>
+        </div>
+
+        <button class="btn btn-brass" type="submit" style="margin-top:6px; width:100%;">Send RSVP</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot-monogram">M &amp; J</div>
+    <p>September 2027 &middot; Raleigh, NC</p>
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
