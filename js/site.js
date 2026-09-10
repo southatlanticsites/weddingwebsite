@@ -5,7 +5,7 @@
 
 (function () {
   // SHA-256 of the site password
-  var PASS_HASH = "5681336fed674984cf5595ba072ff8c472df75265aff4220f26e170e386c8fee";
+  var PASS_HASH = "09f5936097a05b835d2225498a654f70e8f0861c44a572e386e8e77d24858581";
   var KEY = "mj_unlocked";
 
   function buildGate() {

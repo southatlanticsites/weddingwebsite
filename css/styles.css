@@ -1,7 +1,7 @@
 /* ============================================================
    Mike & Julia — September 17, 2027 — Raleigh, NC
    Palette: arboretum green, ivory, speakeasy brass
-   Type: Fraunces (display) + Karla (body)
+   Type: Cormorant Garamond (display) + Karla (body)
    ============================================================ */
 
 :root {
@@ -15,7 +15,7 @@
   --ink: #26261F;
   --white: #FBFAF4;
 
-  --display: "Fraunces", Georgia, serif;
+  --display: "Cormorant Garamond", Georgia, serif;
   --body: "Karla", -apple-system, "Segoe UI", sans-serif;
 
   --max: 980px;
