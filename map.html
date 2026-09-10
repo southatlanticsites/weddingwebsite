@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Accommodations — Mike &amp; Julia</title>
+  <title>Garden Map — Mike &amp; Julia</title>
   <meta name="robots" content="noindex, nofollow" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,8 +18,8 @@
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
       <ul class="nav-links" id="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="map.html">Map</a></li>
-        <li><a href="accommodations.html" class="active">Accommodations</a></li>
+        <li><a href="map.html" class="active">Map</a></li>
+        <li><a href="accommodations.html">Accommodations</a></li>
         <li><a href="things-to-do.html">Things to Do</a></li>
         <li><a href="restaurants.html">Restaurants</a></li>
         <li><a href="attire.html">Attire</a></li>
@@ -29,7 +29,7 @@
   </nav>
 
   <main>
-    <section class="section section-narrow">
+    <section class="section">
       <div class="section-head">
         <svg class="sprig" viewBox="0 0 120 34" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
           <path d="M8 26 Q 60 10 112 26" />
@@ -37,31 +37,24 @@
           <path d="M60 17 q -1 -11 8 -14 q 2 10 -8 14z" />
           <path d="M86 21 q 4 -10 -4 -16 q -5 9 4 16z" />
         </svg>
-        <h2>Accommodations</h2>
-        <div class="sub">Where to stay</div>
+        <h2>Garden Map</h2>
+        <div class="sub">JC Raulston Arboretum</div>
+        <p class="lede">The gardens open at 4:00 pm, an hour before the ceremony &mdash; come early and wander. This is the arboretum's own visitor map: search or tap any plant to find out what it is.</p>
       </div>
 
-      <div class="empty">
-        <svg class="sprig" viewBox="0 0 120 34" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
-          <path d="M8 26 Q 60 10 112 26" />
-          <path d="M60 17 q -1 -11 8 -14 q 2 10 -8 14z" />
-        </svg>
-        <p><strong>Hotel details coming soon.</strong></p>
-        <p>We're finalizing room blocks near downtown Raleigh. Check back closer to the big weekend — and if you have any questions in the meantime, just reach out.</p>
+      <div class="map-frame">
+        <iframe
+          src="https://experience.arcgis.com/experience/bd8b32e7a6f54d23bb101e8ca85dad87"
+          title="JC Raulston Arboretum visitor map"
+          allowfullscreen></iframe>
       </div>
 
-      <!-- When ready, replace the block above with hotel cards. Example:
-
-      <div class="card-grid">
-        <div class="card">
-          <div class="tag">Room block</div>
-          <h3>Hotel Name</h3>
-          <p>Booking code, rate, and cutoff date here.</p>
-          <p class="card-addr">Address &middot; distance from venue</p>
-        </div>
-      </div>
-
-      -->
+      <p class="map-note">
+        Map not loading, or want more room?
+        <a href="https://experience.arcgis.com/experience/bd8b32e7a6f54d23bb101e8ca85dad87" target="_blank" rel="noopener">Open it in a new tab</a>.
+        For driving directions, the arboretum is at
+        <a href="https://maps.google.com/?q=JC+Raulston+Arboretum+4415+Beryl+Rd+Raleigh+NC" target="_blank" rel="noopener">4415 Beryl Rd, Raleigh, NC</a>.
+      </p>
     </section>
   </main>
 
