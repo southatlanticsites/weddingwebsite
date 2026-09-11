@@ -258,6 +258,25 @@ body.locked > *:not(#gate) { display: none !important; }
 }
 .group-label:first-of-type { margin-top: 0; }
 
+/* ---------- Place lists (things to do) ---------- */
+
+.place-list {
+  list-style: none; max-width: 760px; margin: 0 auto;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 0 32px;
+}
+.place-list li { border-bottom: 1px solid var(--paper-deep); }
+.place-list a {
+  display: block; padding: 12px 0; text-decoration: none; color: var(--pine);
+  font-family: var(--display); font-size: 1.25rem; line-height: 1.25;
+}
+.place-list a::after { content: " \2197"; font-size: 0.7em; color: var(--sage); }
+.place-list a:hover { color: var(--brass); }
+.place-list .note {
+  display: block; font-size: 0.78rem; color: var(--sage);
+  margin-top: -10px; padding-bottom: 10px;
+}
+
 /* ---------- Forms (RSVP) ---------- */
 
 .form { background: var(--white); border: 1px solid var(--paper-deep); border-radius: 4px; padding: 34px 28px; }
