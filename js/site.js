@@ -13,6 +13,7 @@
     gate.id = "gate";
     gate.innerHTML =
       '<div class="gate-card">' +
+      '  <svg class="gate-bloom" viewBox="0 0 120 120" aria-hidden="true"><use href="img/flowers.svg#dogwood"></use></svg>' +
       '  <div class="gate-monogram">M &amp; J</div>' +
       '  <p>Enter the password from your invitation</p>' +
       '  <input type="password" id="gate-input" autocomplete="off" aria-label="Site password" />' +

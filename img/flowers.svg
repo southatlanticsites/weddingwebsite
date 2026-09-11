@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Flowering dogwood · Cornus florida (NC state flower) -->
+  <symbol id="dogwood" viewBox="0 0 120 120">
+    <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <path vector-effect="non-scaling-stroke" d="M60 53 C47 48 38 33 45 19 C48 12 53 8 56.5 10.5 L60 15 L63.5 10.5 C67 8 72 12 75 19 C82 33 73 48 60 53Z"/>
+      <path vector-effect="non-scaling-stroke" d="M60 53 C47 48 38 33 45 19 C48 12 53 8 56.5 10.5 L60 15 L63.5 10.5 C67 8 72 12 75 19 C82 33 73 48 60 53Z" transform="rotate(90 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 53 C47 48 38 33 45 19 C48 12 53 8 56.5 10.5 L60 15 L63.5 10.5 C67 8 72 12 75 19 C82 33 73 48 60 53Z" transform="rotate(180 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 53 C47 48 38 33 45 19 C48 12 53 8 56.5 10.5 L60 15 L63.5 10.5 C67 8 72 12 75 19 C82 33 73 48 60 53Z" transform="rotate(270 60 60)"/>
+      <g stroke-width="0.9" stroke-opacity="0.55">
+        <path vector-effect="non-scaling-stroke" d="M60 49 C59.2 40 59.4 30 60 21"/>
+        <path vector-effect="non-scaling-stroke" d="M60 49 C59.2 40 59.4 30 60 21" transform="rotate(90 60 60)"/>
+        <path vector-effect="non-scaling-stroke" d="M60 49 C59.2 40 59.4 30 60 21" transform="rotate(180 60 60)"/>
+        <path vector-effect="non-scaling-stroke" d="M60 49 C59.2 40 59.4 30 60 21" transform="rotate(270 60 60)"/>
+      </g>
+      <circle vector-effect="non-scaling-stroke" cx="60" cy="60" r="2.4"/>
+    </g>
+    <g fill="currentColor">
+      <circle cx="60" cy="54.5" r="1.4"/><circle cx="63.9" cy="56.1" r="1.4"/>
+      <circle cx="65.5" cy="60" r="1.4"/><circle cx="63.9" cy="63.9" r="1.4"/>
+      <circle cx="60" cy="65.5" r="1.4"/><circle cx="56.1" cy="63.9" r="1.4"/>
+      <circle cx="54.5" cy="60" r="1.4"/><circle cx="56.1" cy="56.1" r="1.4"/>
+    </g>
+  </symbol>
+
+  <!-- Large-flowered trillium · Trillium grandiflorum -->
+  <symbol id="trillium" viewBox="0 0 120 120">
+    <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <path vector-effect="non-scaling-stroke" d="M60 60 C56 54 53 44 60 33 C67 44 64 54 60 60Z" transform="rotate(60 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 60 C56 54 53 44 60 33 C67 44 64 54 60 60Z" transform="rotate(180 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 60 C56 54 53 44 60 33 C67 44 64 54 60 60Z" transform="rotate(300 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 57 C51 51 45 36 52 22 C55 16 65 16 68 22 C75 36 69 51 60 57Z"/>
+      <path vector-effect="non-scaling-stroke" d="M60 57 C51 51 45 36 52 22 C55 16 65 16 68 22 C75 36 69 51 60 57Z" transform="rotate(120 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 57 C51 51 45 36 52 22 C55 16 65 16 68 22 C75 36 69 51 60 57Z" transform="rotate(240 60 60)"/>
+      <g stroke-width="0.9" stroke-opacity="0.55">
+        <path vector-effect="non-scaling-stroke" d="M60 53 C59.5 44 59.5 34 60 25"/>
+        <path vector-effect="non-scaling-stroke" d="M60 53 C59.5 44 59.5 34 60 25" transform="rotate(120 60 60)"/>
+        <path vector-effect="non-scaling-stroke" d="M60 53 C59.5 44 59.5 34 60 25" transform="rotate(240 60 60)"/>
+      </g>
+      <circle vector-effect="non-scaling-stroke" cx="60" cy="60" r="3.2"/>
+    </g>
+    <g fill="currentColor">
+      <circle cx="66" cy="60" r="1.3"/><circle cx="63" cy="65.2" r="1.3"/><circle cx="57" cy="65.2" r="1.3"/>
+      <circle cx="54" cy="60" r="1.3"/><circle cx="57" cy="54.8" r="1.3"/><circle cx="63" cy="54.8" r="1.3"/>
+    </g>
+  </symbol>
+
+  <!-- Purple coneflower · Echinacea purpurea -->
+  <symbol id="coneflower" viewBox="0 0 120 120">
+    <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <path vector-effect="non-scaling-stroke" d="M60 54 L60 112"/>
+      <path vector-effect="non-scaling-stroke" d="M60 100 C52 96 44 98 40 106 C48 108 56 106 60 100Z"/>
+      <path vector-effect="non-scaling-stroke" d="M60 52 Q55.5 74 60 96 Q64.5 74 60 52Z" transform="rotate(-66 60 52)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 52 Q55.5 74 60 96 Q64.5 74 60 52Z" transform="rotate(-48 60 52)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 52 Q55.5 74 60 96 Q64.5 74 60 52Z" transform="rotate(-30 60 52)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 52 Q55.5 74 60 96 Q64.5 74 60 52Z" transform="rotate(-12 60 52)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 52 Q55.5 74 60 96 Q64.5 74 60 52Z" transform="rotate(12 60 52)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 52 Q55.5 74 60 96 Q64.5 74 60 52Z" transform="rotate(30 60 52)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 52 Q55.5 74 60 96 Q64.5 74 60 52Z" transform="rotate(48 60 52)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 52 Q55.5 74 60 96 Q64.5 74 60 52Z" transform="rotate(66 60 52)"/>
+      <path vector-effect="non-scaling-stroke" d="M44 51 C44 35 76 35 76 51Z"/>
+    </g>
+    <g fill="currentColor">
+      <circle cx="60" cy="41" r="1.2"/><circle cx="54" cy="44.5" r="1.2"/><circle cx="66" cy="44.5" r="1.2"/>
+      <circle cx="49" cy="48" r="1.2"/><circle cx="60" cy="47.5" r="1.2"/><circle cx="71" cy="48" r="1.2"/>
+    </g>
+  </symbol>
+
+  <!-- Black-eyed Susan · Rudbeckia hirta -->
+  <symbol id="blackeyed" viewBox="0 0 120 120">
+    <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <path vector-effect="non-scaling-stroke" d="M60 50 Q52 32 60 14 Q68 32 60 50Z"/>
+      <path vector-effect="non-scaling-stroke" d="M60 50 Q52 32 60 14 Q68 32 60 50Z" transform="rotate(27.7 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 50 Q52 32 60 14 Q68 32 60 50Z" transform="rotate(55.4 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 50 Q52 32 60 14 Q68 32 60 50Z" transform="rotate(83.1 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 50 Q52 32 60 14 Q68 32 60 50Z" transform="rotate(110.8 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 50 Q52 32 60 14 Q68 32 60 50Z" transform="rotate(138.5 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 50 Q52 32 60 14 Q68 32 60 50Z" transform="rotate(166.2 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 50 Q52 32 60 14 Q68 32 60 50Z" transform="rotate(193.8 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 50 Q52 32 60 14 Q68 32 60 50Z" transform="rotate(221.5 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 50 Q52 32 60 14 Q68 32 60 50Z" transform="rotate(249.2 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 50 Q52 32 60 14 Q68 32 60 50Z" transform="rotate(276.9 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 50 Q52 32 60 14 Q68 32 60 50Z" transform="rotate(304.6 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 50 Q52 32 60 14 Q68 32 60 50Z" transform="rotate(332.3 60 60)"/>
+      <circle vector-effect="non-scaling-stroke" cx="60" cy="60" r="9"/>
+      <circle vector-effect="non-scaling-stroke" cx="60" cy="60" r="6" stroke-width="1.6" stroke-dasharray="1.4 2.6"/>
+      <circle vector-effect="non-scaling-stroke" cx="60" cy="60" r="3" stroke-width="1.6" stroke-dasharray="1.4 2.4"/>
+    </g>
+  </symbol>
+
+  <!-- Carolina rose · Rosa carolina -->
+  <symbol id="rose" viewBox="0 0 120 120">
+    <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <path vector-effect="non-scaling-stroke" d="M60 56 C50 53 43 43 46 30 C48 21 55 17 60 22 C65 17 72 21 74 30 C77 43 70 53 60 56Z"/>
+      <path vector-effect="non-scaling-stroke" d="M60 56 C50 53 43 43 46 30 C48 21 55 17 60 22 C65 17 72 21 74 30 C77 43 70 53 60 56Z" transform="rotate(72 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 56 C50 53 43 43 46 30 C48 21 55 17 60 22 C65 17 72 21 74 30 C77 43 70 53 60 56Z" transform="rotate(144 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 56 C50 53 43 43 46 30 C48 21 55 17 60 22 C65 17 72 21 74 30 C77 43 70 53 60 56Z" transform="rotate(216 60 60)"/>
+      <path vector-effect="non-scaling-stroke" d="M60 56 C50 53 43 43 46 30 C48 21 55 17 60 22 C65 17 72 21 74 30 C77 43 70 53 60 56Z" transform="rotate(288 60 60)"/>
+      <circle vector-effect="non-scaling-stroke" cx="60" cy="60" r="3.5"/>
+    </g>
+    <g fill="currentColor">
+      <circle cx="68" cy="60" r="1.3"/><circle cx="66.5" cy="64.7" r="1.3"/><circle cx="62.5" cy="67.6" r="1.3"/>
+      <circle cx="57.5" cy="67.6" r="1.3"/><circle cx="53.5" cy="64.7" r="1.3"/><circle cx="52" cy="60" r="1.3"/>
+      <circle cx="53.5" cy="55.3" r="1.3"/><circle cx="57.5" cy="52.4" r="1.3"/><circle cx="62.5" cy="52.4" r="1.3"/>
+      <circle cx="66.5" cy="55.3" r="1.3"/>
+    </g>
+  </symbol>
+
+  <!-- Flame azalea · Rhododendron calendulaceum -->
+  <symbol id="azalea" viewBox="0 0 120 120">
+    <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <path vector-effect="non-scaling-stroke" d="M52 94 C51 80 49 66 44 56"/>
+      <path vector-effect="non-scaling-stroke" d="M68 94 C69 80 71 66 76 56"/>
+      <path vector-effect="non-scaling-stroke" d="M52 94 Q60 100 68 94"/>
+      <path vector-effect="non-scaling-stroke" d="M49 52 C45 38 52 26 60 29 C68 26 75 38 71 52"/>
+      <path vector-effect="non-scaling-stroke" d="M44 56 C32 52 24 40 33 31 C41 27 50 39 47 54"/>
+      <path vector-effect="non-scaling-stroke" d="M76 56 C88 52 96 40 87 31 C79 27 70 39 73 54"/>
+      <path vector-effect="non-scaling-stroke" d="M50 58 C47 68 55 76 60 70 C65 76 73 68 70 58"/>
+      <g stroke-width="1.1">
+        <path vector-effect="non-scaling-stroke" d="M60 57 C68 44 80 32 96 26"/>
+        <path vector-effect="non-scaling-stroke" d="M60 57 C64 42 74 28 86 16"/>
+        <path vector-effect="non-scaling-stroke" d="M60 57 C58 40 62 24 70 10"/>
+        <path vector-effect="non-scaling-stroke" d="M60 57 C72 50 88 42 104 40"/>
+        <path vector-effect="non-scaling-stroke" d="M60 57 C52 42 50 26 54 12"/>
+      </g>
+    </g>
+    <g fill="currentColor">
+      <circle cx="96" cy="26" r="1.6"/><circle cx="86" cy="16" r="1.6"/><circle cx="70" cy="10" r="1.6"/>
+      <circle cx="104" cy="40" r="1.6"/><circle cx="54" cy="12" r="1.6"/>
+    </g>
+  </symbol>
+
+  <!-- Leaf sprig divider -->
+  <symbol id="sprig" viewBox="0 0 120 34">
+    <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <path vector-effect="non-scaling-stroke" d="M8 26 Q60 10 112 26"/>
+      <path vector-effect="non-scaling-stroke" d="M34 21 q-4 -10 4 -16 q5 9 -4 16z"/>
+      <path vector-effect="non-scaling-stroke" d="M60 17 q-1 -11 8 -14 q2 10 -8 14z"/>
+      <path vector-effect="non-scaling-stroke" d="M86 21 q4 -10 -4 -16 q-5 9 4 16z"/>
+    </g>
+  </symbol>
+
+</svg>
