@@ -299,14 +299,13 @@ body.locked > *:not(#gate) { display: none !important; }
 
 /* ---------- Photo gallery ---------- */
 
-.gallery {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 14px;
-}
+.gallery { columns: 3 260px; column-gap: 14px; }
+.gallery a { display: block; margin-bottom: 14px; break-inside: avoid; }
 .gallery img {
-  width: 100%; aspect-ratio: 4 / 5; object-fit: cover;
-  border-radius: 4px; border: 1px solid var(--paper-deep);
+  width: 100%; border-radius: 4px; border: 1px solid var(--paper-deep);
+  background: var(--paper-deep);
 }
+.gallery a:hover img { opacity: 0.92; }
 
 /* ---------- Embedded RSVP form ---------- */
 
