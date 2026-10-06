@@ -54,6 +54,7 @@
     var guests = checked("entry.1498135098");
     var data = new URLSearchParams();
     data.append("emailAddress", form.querySelector("#rsvp-email").value.trim());
+    data.append("entry.1641428687", form.querySelector("#rsvp-name").value.trim());
     data.append("entry.877086558", checked("entry.877086558"));
 
     // Google Forms validates required questions against the sections the
@@ -70,9 +71,7 @@
         data.append("entry.1642573873", plusEmail);
       } else if (guests === CHILDREN) {
         pages.push("3");
-        // The children section of the Google Form has "Name of plus one" twice.
         data.append("entry.544570400", plusName);
-        data.append("entry.1922437643", plusName);
         data.append("entry.1499437095", plusEmail);
         data.append("entry.2101293691", form.querySelector("#rsvp-children").value.trim());
       }

@@ -14,7 +14,7 @@
     gate.innerHTML =
       '<div class="gate-card">' +
       '  <img class="gate-bloom" src="img/flowers/dogwood-light.png" alt="" />' +
-      '  <div class="gate-monogram">M &amp; J</div>' +
+      '  <div class="gate-monogram" aria-label="M &amp; J"><img src="img/monogram/M-dark.png" alt="" /><span class="amp">&amp;</span><img src="img/monogram/J-dark.png" alt="" /></div>' +
       '  <p>Enter the password from your invitation</p>' +
       '  <input type="password" id="gate-input" autocomplete="off" aria-label="Site password" />' +
       '  <button id="gate-btn">Enter</button>' +
