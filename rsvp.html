@@ -41,69 +41,16 @@
         <p class="lede">We can't wait to celebrate with you. Please fill out one response per guest or household.</p>
       </div>
 
-      <!-- Submits to the Google Form below; field names are its entry IDs. -->
-      <form class="form" id="rsvp-form" novalidate>
-
-        <div class="form-row">
-          <label for="rsvp-name">Name</label>
-          <input type="text" id="rsvp-name" name="entry.1641428687" autocomplete="name" required />
-        </div>
-
-        <div class="form-row">
-          <label for="rsvp-email">Email</label>
-          <input type="email" id="rsvp-email" name="emailAddress" autocomplete="email" required />
-        </div>
-
-        <div class="form-row">
-          <span class="form-label">Can you attend?</span>
-          <div class="choice-group">
-            <label class="choice"><input type="radio" name="entry.877086558" value="Yes,  I'll be there" required /> Yes, I'll be there</label>
-            <label class="choice"><input type="radio" name="entry.877086558" value="Sorry, can't make it" /> Sorry, can't make it</label>
-          </div>
-        </div>
-
-        <div data-show="attending" hidden>
-          <div class="form-row">
-            <span class="form-label">How many guests will be attending?</span>
-            <div class="choice-group">
-              <label class="choice"><input type="radio" name="entry.1498135098" value="Just me!" required /> Just me!</label>
-              <label class="choice"><input type="radio" name="entry.1498135098" value="Me, plus one!" /> Me, plus one!</label>
-              <label class="choice"><input type="radio" name="entry.1498135098" value="Me, plus one, and children" /> Me, plus one, and children</label>
-            </div>
-          </div>
-
-          <div data-show="plusone" hidden>
-            <p class="form-note" data-show="plusone-only">We kindly ask that only those named on the invitation attend.</p>
-            <p class="form-note" data-show="children" hidden>We kindly ask that only those named on the invitation attend, including children.</p>
-            <div class="form-row">
-              <label for="rsvp-plus-name">Name of plus one</label>
-              <input type="text" id="rsvp-plus-name" autocomplete="off" required />
-            </div>
-            <div class="form-row">
-              <label for="rsvp-plus-email">Plus one's email <span class="optional">(optional)</span></label>
-              <input type="email" id="rsvp-plus-email" autocomplete="off" />
-            </div>
-          </div>
-
-          <div class="form-row" data-show="children" hidden>
-            <label for="rsvp-children">Children's name(s)</label>
-            <textarea id="rsvp-children" name="entry.2101293691" rows="2" required></textarea>
-          </div>
-
-          <div class="form-row">
-            <label for="rsvp-diet">Dietary restrictions <span class="optional">(optional)</span></label>
-            <textarea id="rsvp-diet" name="entry.691938327" rows="2"></textarea>
-          </div>
-        </div>
-
-        <p class="form-error" id="rsvp-error" aria-live="polite"></p>
-        <button class="btn" type="submit" id="rsvp-submit">Send RSVP</button>
-      </form>
-
-      <div class="rsvp-thanks" id="rsvp-thanks" hidden>
-        <p class="statement">Thank you!</p>
-        <p id="rsvp-thanks-note">We've received your RSVP.</p>
+      <div class="rsvp-frame">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLScbZDyGm5ZyObrt1kZd4cV2kdrHpfZiBTtFlRT6YedJyWStnw/viewform?embedded=true"
+          title="RSVP form">Loading&hellip;</iframe>
       </div>
+
+      <p class="map-note">
+        Trouble with the form?
+        <a href="https://forms.gle/Yepky1D3YMKDu74s6" target="_blank" rel="noopener">Open it in a new tab</a>.
+      </p>
     </section>
   </main>
 
@@ -115,6 +62,5 @@
   </footer>
 
   <script src="js/site.js"></script>
-  <script src="js/rsvp.js"></script>
 </body>
 </html>
