@@ -298,21 +298,46 @@ body.locked > *:not(#gate) { display: none !important; }
 /* ---------- Photo gallery ---------- */
 
 .gallery { columns: 3 260px; column-gap: 14px; }
-.gallery a { display: block; margin-bottom: 14px; break-inside: avoid; }
 .gallery img {
-  width: 100%; border-radius: 4px; border: 1px solid var(--paper-deep);
+  width: 100%; margin-bottom: 14px; break-inside: avoid;
+  border-radius: 4px; border: 1px solid var(--paper-deep);
   background: var(--paper-deep);
 }
-.gallery a:hover img { opacity: 0.92; }
 
-/* ---------- Embedded RSVP form ---------- */
+/* ---------- RSVP form ---------- */
 
-.rsvp-frame {
-  border: 1px solid var(--paper-deep); border-radius: 4px;
-  overflow: hidden; background: var(--white);
+.form {
+  background: var(--white); border: 1px solid var(--paper-deep);
+  border-radius: 4px; padding: 34px 30px;
 }
-.rsvp-frame iframe { width: 100%; height: 900px; border: 0; display: block; }
-@media (max-width: 640px) { .rsvp-frame iframe { height: 1000px; } }
+.form-row { margin-bottom: 26px; }
+.form label, .form .form-label {
+  display: block; margin-bottom: 8px;
+  font-family: var(--display); font-size: 1.3rem; color: var(--pine);
+}
+.form .optional { font-family: var(--body); font-size: 0.8rem; color: var(--sage); }
+.form input[type="text"], .form input[type="email"], .form textarea {
+  width: 100%; padding: 12px 14px; font-size: 1rem; font-family: var(--body);
+  border: 1px solid var(--sage-soft); border-radius: 3px;
+  background: var(--paper); color: var(--ink); resize: vertical;
+}
+.form input:focus, .form textarea:focus { outline: none; border-color: var(--brass); }
+.choice-group { display: flex; flex-direction: column; gap: 10px; }
+.form label.choice {
+  display: flex; align-items: center; gap: 12px; margin: 0;
+  font-family: var(--body); font-size: 1rem; color: var(--ink);
+  padding: 12px 14px; border: 1px solid var(--sage-soft); border-radius: 3px;
+  background: var(--paper); cursor: pointer;
+}
+.form label.choice:has(input:checked) { border-color: var(--pine); background: var(--white); }
+.form label.choice input { accent-color: var(--pine); width: 17px; height: 17px; margin: 0; }
+.form-note { margin: -6px 0 22px; font-style: italic; font-family: var(--display); font-size: 1.1rem; color: var(--brass); }
+.form-row.invalid input, .form-row.invalid textarea, .form-row.invalid label.choice { border-color: #B5523B; }
+.form-error { color: #B5523B; font-size: 0.92rem; min-height: 1.4em; margin-bottom: 6px; }
+.form .btn { margin-top: 0; width: 100%; }
+.form .btn:disabled { opacity: 0.6; cursor: default; }
+.rsvp-thanks { text-align: center; padding: 30px 0; }
+.rsvp-thanks p + p { margin-top: 12px; }
 
 /* ---------- Embedded map ---------- */
 
