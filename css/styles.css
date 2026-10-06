@@ -50,7 +50,7 @@ a { color: var(--pine); }
   padding: 24px; text-align: center;
 }
 #gate .gate-card { max-width: 380px; width: 100%; }
-#gate .gate-bloom { width: 68px; height: 68px; margin: 0 auto 6px; color: var(--sage-soft); display: block; }
+#gate .gate-bloom { width: 170px; height: auto; margin: 0 auto 10px; display: block; }
 #gate .gate-monogram {
   font-family: var(--display); font-weight: 300; font-style: italic;
   font-size: 3rem; letter-spacing: 0.04em; margin-bottom: 8px;
@@ -136,9 +136,7 @@ body.locked > *:not(#gate) { display: none !important; }
   min-height: min(78vh, 760px);
   display: flex; flex-direction: column; align-items: center; justify-content: center;
 }
-.hero-art { width: min(360px, 88vw); height: auto; margin: 0 auto 6px; display: block; }
-.hero-art .branch { color: var(--sage); }
-.hero-art .blooms { color: var(--pine); }
+.hero-art { width: min(380px, 86vw); height: auto; margin: 0 auto 14px; display: block; }
 .hero-eyebrow {
   font-size: 0.78rem; letter-spacing: 0.32em; text-transform: uppercase;
   color: var(--brass); margin-bottom: 18px;
@@ -185,7 +183,7 @@ body.locked > *:not(#gate) { display: none !important; }
 .section-narrow { max-width: 680px; }
 
 .section-head { text-align: center; margin-bottom: 46px; }
-.section-head .bloom { width: 86px; height: 86px; margin: 0 auto 4px; color: var(--sage); display: block; }
+.section-head .bloom { height: 170px; width: auto; max-width: 70vw; margin: 0 auto 8px; display: block; }
 .section-head .bloom-name {
   font-size: 0.74rem; letter-spacing: 0.04em; color: var(--sage); margin-bottom: 16px;
 }
@@ -346,12 +344,17 @@ footer {
   margin-top: 40px; padding: 46px 20px 56px; text-align: center;
   background: var(--pine); color: var(--sage-soft);
 }
-footer .foot-bloom { width: 46px; height: 46px; margin: 0 auto 10px; color: var(--sage-soft); display: block; }
+footer .foot-bloom { width: 120px; height: auto; margin: 0 auto 10px; display: block; opacity: 0.85; }
 footer .foot-monogram {
   font-family: var(--display); font-style: italic; font-weight: 300;
   font-size: 1.8rem; color: var(--white); margin-bottom: 6px;
 }
 footer p { font-size: 0.78rem; letter-spacing: 0.22em; text-transform: uppercase; }
+footer .foot-credit {
+  max-width: 520px; margin: 22px auto 0; font-size: 0.72rem;
+  letter-spacing: 0.02em; text-transform: none; opacity: 0.7;
+}
+footer .foot-credit a { color: var(--sage-soft); }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
